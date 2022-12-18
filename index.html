@@ -2,6 +2,7 @@
 
 <html lang="en">
 <head>
+  <script src="./palindrome.js"> </script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -11,13 +12,19 @@
 </head>
 
 <body>
+  <fieldset>
+    <legend> palindrome
+  
     <!-- your content here... -->
-    <input id="palindrome">
-    <button onclick="checkPalindrome(document.getElementById('palindrome').value)">Check its Palindrome</button>
+    <input id="palindrome" class="inbox">
+    
+    <button onclick="checkPalindrome(document.getElementById('palindrome').value)">Push to Palindrome</button>
     <p id="demo"></p>
+  
+</legend>
+</fieldset>
 
 
-
-   <script src="./palindrome.js"> </script>
+   
 </body>
 </html>
